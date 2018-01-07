@@ -8,7 +8,6 @@
 using namespace std;
 using namespace cv;
 
-//Function that takes image name and a threshold then return a vector of vectors or (2d array)
 int convertImageToBinaryData(string imgName,string fileName,int threshold)
 {
 	ofstream orig(fileName); 
